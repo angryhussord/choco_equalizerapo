@@ -8,12 +8,12 @@ $validExitCodes = @(0);
 $ScriptBlock = {
 	$setup_running = $true;
 	while ($setup_running) {
-		Sleep -Seconds 1;
+		Sleep -Seconds 5;
 		$setup_running = (Get-Process 'EqualizerAPO*-0.9.2' -ErrorAction:SilentlyContinue).count -eq 1;
 	}
 	$configurator_running = $true;
 	while ($configurator_running) {
-		Sleep -Seconds 1;
+		Sleep -Seconds 5;
 		Get-Process 'configurator' | Stop-Process;
 		$configurator_running = (Get-Process 'configurator' -ErrorAction:SilentlyContinue).count -eq 1;
 	}
