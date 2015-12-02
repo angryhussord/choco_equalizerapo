@@ -6,17 +6,13 @@ $silentArgs = '/S';
 $validExitCodes = @(0);
 #Create monitor for "Configurator" ahead of actually installing the software
 $ScriptBlock = {
-	$setup_running = $true;
-	while ($setup_running) {
+    #Wait for Configurator.exe to start running
+	$configurator_open = $false;
+	while (!$configurator_open) {
 		Sleep -Seconds 5;
-		$setup_running = (Get-Process 'EqualizerAPO*-0.9.2' -ErrorAction:SilentlyContinue).count -eq 1;
-	}
-	$configurator_running = $true;
-	while ($configurator_running) {
-		Sleep -Seconds 5;
-		Get-Process 'configurator' | Stop-Process;
-		$configurator_running = (Get-Process 'configurator' -ErrorAction:SilentlyContinue).count -eq 1;
-	}
+		$configurator_open = (Get-Process 'configurator' -ErrorAction:SilentlyContinue).count -eq 1;
+	} #loop ends when we find the process running
+    Get-Process 'configurator' | Stop-Process;
 }
 Start-Job -Name "Kill Configurator.exe" -ScriptBlock $ScriptBlock | Out-Null;
 #Install the package
