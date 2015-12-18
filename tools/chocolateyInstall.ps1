@@ -1,7 +1,7 @@
 ﻿$packageName = 'equalizerapo';
 $installerType = 'exe';
-$url = 'http://sourceforge.net/projects/equalizerapo/files/1.0/EqualizerAPO32-1.0.exe/download';
-$url64 = 'http://sourceforge.net/projects/equalizerapo/files/1.0/EqualizerAPO64-1.0.exe/download';
+$url = 'http://sourceforge.net/projects/equalizerapo/files/1.1.1/EqualizerAPO32-1.1.1.exe/download';
+$url64 = 'http://sourceforge.net/projects/equalizerapo/files/1.1.1/EqualizerAPO64-1.1.1.exe/download';
 $silentArgs = '/S';
 $validExitCodes = @(0);
 #Create monitor for "Configurator" ahead of actually installing the software
