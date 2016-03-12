@@ -27,6 +27,8 @@ Equalizer APO is best used in conjunction with Room EQ Wizard (http://www.hometh
 
 Please have a look at the Wiki (http://sourceforge.net/p/equalizerapo/wiki/) for instructions on installation and configuration.</description>
     <projectUrl>http://sourceforge.net/projects/equalizerapo/</projectUrl>
+    <packageSourceUrl>https://github.com/angryhussord/choco_equalizerapo</packageSourceUrl>
+    <projectSourceUrl>https://sourceforge.net/p/equalizerapo/code/HEAD/tree/</projectSourceUrl>
     <tags>Sound Audio Windows Equalizer ASIO</tags>
     <copyright>GPLv2</copyright>
     <licenseUrl>http://sourceforge.net/directory/license:gpl/</licenseUrl>
