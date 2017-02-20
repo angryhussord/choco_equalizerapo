@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>equalizerapo</id>
     <title>Equalizer APO</title>
-    <version>1.1.1.20160228</version>
+    <version>1.1.2</version>
     <authors>jthedering</authors>
     <owners>angryhussord</owners>
     <summary>Equalizer APO is a parametric equalizer for Windows. It is implemented as an Audio Processing Object (APO) for the system effect infrastructure introduced with Windows Vista.</summary>
@@ -29,7 +29,7 @@ Please have a look at the Wiki (http://sourceforge.net/p/equalizerapo/wiki/) for
     <projectUrl>http://sourceforge.net/projects/equalizerapo/</projectUrl>
     <packageSourceUrl>https://github.com/angryhussord/choco_equalizerapo</packageSourceUrl>
     <projectSourceUrl>https://sourceforge.net/p/equalizerapo/code/HEAD/tree/</projectSourceUrl>
-    <tags>Sound Audio Windows Equalizer ASIO</tags>
+    <tags>Sound Audio Windows Equalizer ASIO admin</tags>
     <copyright>GPLv2</copyright>
     <licenseUrl>http://sourceforge.net/directory/license:gpl/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
