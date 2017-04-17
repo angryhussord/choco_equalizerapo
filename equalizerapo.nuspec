@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>equalizerapo</id>
     <title>Equalizer APO</title>
-    <version>1.1.2</version>
+    <version>1.1.2.20170417</version>
     <authors>jthedering</authors>
     <owners>angryhussord</owners>
     <summary>Equalizer APO is a parametric equalizer for Windows. It is implemented as an Audio Processing Object (APO) for the system effect infrastructure introduced with Windows Vista.</summary>

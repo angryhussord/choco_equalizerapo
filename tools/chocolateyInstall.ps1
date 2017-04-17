@@ -15,9 +15,9 @@ $packageArgs = @{
   silentArgs    = '/S'
   validExitCodes= @(0)
   softwareName  = 'equalizerapo*'
-  checksum      = '929464032E4B22C7521F766C93E2615F'
+  checksum      = '42E0C5AF84FFFBEF39C299BBF9A7F7C5306038D47A973A5F840BC5D60A3F680D'
   checksumType  = 'sha256'
-  checksum64      = 'ECF4313E03DB500087DA03975D97B283'
+  checksum64      = '04602BEEAFDE280F37FF56D3958470EB5C888AE0E6858465576AED32617EBC04'
   checksumType64  = 'sha256'
 };
 
