@@ -3,8 +3,8 @@
 $packageName = 'equalizerapo'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)";
 $installerType = 'EXE'
-$url = 'http://sourceforge.net/projects/equalizerapo/files/1.1.2/EqualizerAPO32-1.1.2.exe/download';
-$url64 = 'http://sourceforge.net/projects/equalizerapo/files/1.1.2/EqualizerAPO64-1.1.2.exe/download';
+$url = 'http://sourceforge.net/projects/equalizerapo/files/1.2/EqualizerAPO32-1.2.exe/download';
+$url64 = 'http://sourceforge.net/projects/equalizerapo/files/1.2/EqualizerAPO64-1.2.exe/download';
 
 $packageArgs = @{
   packageName   = $packageName
@@ -15,9 +15,9 @@ $packageArgs = @{
   silentArgs    = '/S'
   validExitCodes= @(0)
   softwareName  = 'equalizerapo*'
-  checksum      = '42E0C5AF84FFFBEF39C299BBF9A7F7C5306038D47A973A5F840BC5D60A3F680D'
+  checksum      = '7A554CC24B8DE2710A06EFE0DB762E96DEDD352DDDC592189ECC669AE7059A41'
   checksumType  = 'sha256'
-  checksum64      = '04602BEEAFDE280F37FF56D3958470EB5C888AE0E6858465576AED32617EBC04'
+  checksum64      = '29DFF1BA1221939AA805182771FD17FA71AE05A54FA97FD4A3641A521BF19E1C'
   checksumType64  = 'sha256'
 };
 
